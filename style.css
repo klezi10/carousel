@@ -14,6 +14,7 @@
 .carousel img {
   max-width: 600px;
   width: 100%;
+  height: auto;
 }
 
 .carousel .carousel-actions {
@@ -22,6 +23,7 @@
   justify-content: space-between;
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
 }
 #carousel-button-prev {
   margin-left: 20px;
